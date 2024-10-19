@@ -1,0 +1,12 @@
+Z80_new
+
+Este computador será implementado em módulos.
+
+1 - backplane
+    1.1 - Placa de 100mm x 100mm
+
+2 - cpu z80 e os latches transparentes como buffers e mais um AVR(a definir)
+    2.1 - Papéis do AVR.
+          * Fornecer clock de 10 MHZ para o sistema
+          * Reset do sistema
+          * I2C

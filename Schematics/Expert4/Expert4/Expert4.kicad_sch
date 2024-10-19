@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 04532b30-ae9b-4040-b1fe-4361f1033b52)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 236.22 51.308) (size 43.942 7.874) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 33e6887c-9ebc-4b9e-bb37-482dcedbd320)
+    (property "Sheetname" "MultIO" (at 236.22 50.5964 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "multIO.kicad_sch" (at 236.22 59.7666 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Expert4"
+        (path "/04532b30-ae9b-4040-b1fe-4361f1033b52" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 235.712 37.592) (size 43.942 7.874) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 88cd91f4-2754-4da9-9002-62507e3d65fc)
+    (property "Sheetname" "CPU" (at 235.712 36.8804 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cpu.kicad_sch" (at 235.712 46.0506 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Expert4"
+        (path "/04532b30-ae9b-4040-b1fe-4361f1033b52" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
